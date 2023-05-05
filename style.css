@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    height: 0 auto;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+header{
+    background-color:#fe6133 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+header h1{
+    padding-left: 50px;
+}
+header .search input{
+    height: 30px;
+    width: 500px;
+    border: 0px;
+    border-radius: 5px;
+}
+header button{
+    display: none;
+}
+header .search i{
+    border: 1px solid white;
+    background-color: white;
+    color:#fe6133 ;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+main .main1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+main .main1 div{
+    border: 10px solid gray;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+.main2{
+    display: flex;
+    padding: 10px 100px 40px 100px;
+    justify-content: center;
+    background-color:#f5f5f5 ;
+}
+main .main2 .sanpham{
+    width:18% ;
+    margin: 10px 4px;
+    background-color: white;
+}
+main .main2 .sanpham img{
+    width: 100%;
+    object-fit: fill;
+    padding: 12px;
+}
+main .main2 .list p{
+    padding-left: 10px;
+    padding: 0 0 3px 10px;
+}
+main .main2 .list h2{
+    padding: 5px;
+}
+main .main2 .list span{
+    color:#fe6133;
+}
+main .main2 .list .text{
+    padding-left: 5px;
+}
+main .main2 .list hr{
+    margin: 10px 0 20px 0;
+}
+main .main2 .sanpham h3{
+    text-align: center;
+}
+main .main2 .sanpham .text1 p{
+    color: #fe6133;
+    text-align: center;
+    margin: 10px;
+}
+main .main2 .sanpham .love{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+main .main2 .sanpham .love i{
+    color: #9ba9ff ;
+}
+main .main2 .sanpham .hanoi{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    color:#bdbdbd
+}
+main .main2 .sanpham .diachi{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 12px;
+    color:#bdbdbd
+}
+.day{
+    border: 3px solid #fe6133;
+}
+footer{
+    display: flex;
+    padding: 20px 20px 40px 20px;
+    justify-content: space-between;
+    background-color:#f5f5f5
+}
+footer .and p{
+    color:#bdbdbd ;
+    margin-top: 5px;
+}
+footer .and span{
+    color: #fe6133;
+}
+.day2{
+    border: 3px solid black;
+}
+@media screen and (max-width: 480px){
+body{
+    width: 480px;
+}
+header{
+ width:100%;
+ margin: 0px;
+ padding: 0px;
+ justify-content:space-around;
+}
+header h1{
+    padding: 0px;
+    font-size: 25px;
+}
+header button{
+    background-color:#fe6133;
+    color: white;
+    border: 0px;
+font-size: 20px;
+}
+header .search, span{
+    display: none;
+}
+.main2{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+footer{
+   
+}
+main .main1{
+    display: none;
+}
+.day1, .day2{
+    display: none;
+}
+main .main2{
+    width: 100%;
+}
+main .main2 .sanpham {
+    width: 100%;
+}
+main .main2 .sanpham .text span{
+    display: block;
+}
+main .main2 .sanpham h3{
+    font-size: 30px;
+}
+main .main2 .sanpham .text1 p{
+    font-size: 30px;
+}
+main .main2 .sanpham .text .love{
+    font-size: 30px;
+
+}
+}
+    
